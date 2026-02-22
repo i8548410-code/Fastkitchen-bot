@@ -11,8 +11,8 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.storage.memory import MemoryStorage
 
-TOKEN = "7979435973:AAGbfQ2ZKGt8RX3yCw9aHD-Fwpqz7FkEROs"
-ADMIN_ID = 6153943155  # Admin ID yozing
+TOKEN = "TOKEN"
+ADMIN_ID =Admin id # Admin ID yozing
 
 logging.basicConfig(level=logging.INFO)
 
@@ -224,4 +224,5 @@ async def main():
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
+
     asyncio.run(main())
